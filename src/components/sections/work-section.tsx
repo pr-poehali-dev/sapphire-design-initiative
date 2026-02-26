@@ -15,32 +15,46 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Топ репетиторы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Лучшие по рейтингу</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Анна Смирнова",
+              category: "Математика · ЕГЭ / ОГЭ · Онлайн",
+              year: "★ 5.0",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Дмитрий Волков",
+              category: "Английский язык · Все уровни · Онлайн",
+              year: "★ 4.9",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Елена Кузнецова",
+              category: "Физика · ЕГЭ / Олимпиады · Онлайн",
+              year: "★ 4.9",
+              direction: "left",
+            },
+            {
+              number: "04",
+              title: "Михаил Орлов",
+              category: "Программирование · Python / Web · Онлайн",
+              year: "★ 4.8",
+              direction: "right",
+            },
+            {
+              number: "05",
+              title: "Ольга Петрова",
+              category: "Русский язык · ЕГЭ / Сочинение · Онлайн",
+              year: "★ 4.8",
               direction: "left",
             },
           ].map((project, i) => (

@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Как это работает
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Просто и удобно</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Найди репетитора",
+              description: "Используй фильтры по предмету, уровню, формату и цене — находи подходящего за минуту",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Запишись на пробный урок",
+              description: "Первое занятие — бесплатно или по сниженной цене. Познакомься с преподавателем без риска",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Занимайся онлайн или офлайн",
+              description: "Видеозвонки, домашние задания и чат с репетитором — всё в одном личном кабинете",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Оставь отзыв",
+              description: "После занятий оцени репетитора — помоги другим ученикам сделать правильный выбор",
               direction: "bottom",
             },
           ].map((service, i) => (
